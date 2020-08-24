@@ -62,6 +62,9 @@
     <Compile Include="Creational\FactoryMethod\ElevatorDown.cs" />
     <Compile Include="Creational\FactoryMethod\ElevatorUp.cs" />
     <Compile Include="Creational\FactoryMethod\IEvelatorOperation.cs" />
+    <Compile Include="Creational\Prototype\Client.cs" />
+    <Compile Include="Creational\Prototype\IdInfo.cs" />
+    <Compile Include="Creational\Prototype\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
