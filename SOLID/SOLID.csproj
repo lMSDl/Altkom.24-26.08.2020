@@ -44,6 +44,7 @@
     <Compile Include="III_LS_2.cs" />
     <Compile Include="III_LS_1.cs" />
     <Compile Include="II_OCP.cs" />
+    <Compile Include="IV_ISP.cs" />
     <Compile Include="I_SRP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
