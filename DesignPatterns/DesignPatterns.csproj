@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\Builder\Client.cs" />
+    <Compile Include="Creational\Builder\ManufacturingInfo.cs" />
+    <Compile Include="Creational\Builder\Vehicle.cs" />
+    <Compile Include="Creational\Builder\ManufacturingInfoBuilder.cs" />
+    <Compile Include="Creational\Builder\VehicleBuilderBase.cs" />
+    <Compile Include="Creational\Builder\VehicleBuilder.cs" />
+    <Compile Include="Creational\Builder\VehicleBuilderFacade.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

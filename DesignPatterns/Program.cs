@@ -11,12 +11,16 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            var a = 2;
-            var b = 5;
+            DesignPatterns.Creational.Builder.Client.Execute();
 
-            Square square = new Rectangle() { A = a, B = b };
-                
-            Console.WriteLine($"Prostokąt o bokach: {a} i {b}, ma pole równe {square.Area}");
+
+
+            //var a = 2;
+            //var b = 5;
+
+            //Square square = new Rectangle() { A = a, B = b };
+
+            //Console.WriteLine($"Prostokąt o bokach: {a} i {b}, ma pole równe {square.Area}");
 
             Console.ReadLine();
         }
