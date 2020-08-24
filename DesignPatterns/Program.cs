@@ -11,7 +11,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Creational.FactoryMethod.Client.Execute();
+            DesignPatterns.Creational.AbstractFactory.Client.Execute();
 
 
 
