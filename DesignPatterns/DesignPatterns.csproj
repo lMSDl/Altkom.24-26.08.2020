@@ -65,6 +65,8 @@
     <Compile Include="Creational\Prototype\Client.cs" />
     <Compile Include="Creational\Prototype\IdInfo.cs" />
     <Compile Include="Creational\Prototype\Person.cs" />
+    <Compile Include="Creational\Singleton\Client.cs" />
+    <Compile Include="Creational\Singleton\Context.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
