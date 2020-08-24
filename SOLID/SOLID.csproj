@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="II_OCP.cs" />
     <Compile Include="I_SRP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
