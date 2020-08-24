@@ -50,6 +50,13 @@
     <Compile Include="Creational\Builder\VehicleBuilderBase.cs" />
     <Compile Include="Creational\Builder\VehicleBuilder.cs" />
     <Compile Include="Creational\Builder\VehicleBuilderFacade.cs" />
+    <Compile Include="Creational\FactoryMethod\Client.cs" />
+    <Compile Include="Creational\FactoryMethod\Elevator.cs" />
+    <Compile Include="Creational\FactoryMethod\ElevatorActions.cs" />
+    <Compile Include="Creational\FactoryMethod\ElevatorGoTo.cs" />
+    <Compile Include="Creational\FactoryMethod\ElevatorDown.cs" />
+    <Compile Include="Creational\FactoryMethod\ElevatorUp.cs" />
+    <Compile Include="Creational\FactoryMethod\IEvelatorOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
