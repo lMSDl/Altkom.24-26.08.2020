@@ -12,6 +12,11 @@ namespace DesignPrinciples
             return Customers.Remove(account);
         }
 
+        public PaymentAccount FindAccountById(int id)
+        {
+            return Customers.SingleOrDefault(x => x.Id == id);
+        }
+
         public PaymentAccount FindCustomerByAllowedDebit(float allowedDebit)
         {
             return Customers.SingleOrDefault(x => x.AllowedDebit == allowedDebit);
@@ -19,13 +24,13 @@ namespace DesignPrinciples
 
         public bool Charge(int id, float amount)
         {
-            PaymentAccount customer = Customers.SingleOrDefault(x => x.Id == id);
+            PaymentAccount customer = FindAccountById(id);
             if (customer == null)
             {
                 return false;
             }
 
-            if (customer.Incomes - customer.Outcomes + customer.AllowedDebit < amount)
+            if (GetBalance(id) + customer.AllowedDebit < amount)
             {
                 return false;
             }
@@ -36,7 +41,7 @@ namespace DesignPrinciples
 
         public void Fund(int id, float amount)
         {
-            PaymentAccount customer = Customers.Where(x => x.Id == id).SingleOrDefault();
+            PaymentAccount customer = FindAccountById(id);
             if (customer == null)
             {
                 return;
@@ -47,7 +52,7 @@ namespace DesignPrinciples
 
         public float? GetBalance(int id)
         {
-            PaymentAccount customer = Customers.Where(x => x.Id == id).SingleOrDefault();
+            PaymentAccount customer = FindAccountById(id);
             return customer?.Incomes - customer?.Outcomes;
         }
     }
