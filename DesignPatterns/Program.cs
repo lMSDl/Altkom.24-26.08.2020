@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SOLID.III_LS_2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,14 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+            var a = 2;
+            var b = 5;
+
+            Square square = new Rectangle() { A = a, B = b };
+                
+            Console.WriteLine($"Prostokąt o bokach: {a} i {b}, ma pole równe {square.Area}");
+
+            Console.ReadLine();
         }
     }
 }
