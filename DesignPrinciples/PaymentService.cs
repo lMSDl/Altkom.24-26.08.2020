@@ -19,14 +19,7 @@ namespace DesignPrinciples
             {
                 return false;
             }
-
-            if (GetBalance(id) + customer.AllowedDebit < amount)
-            {
-                return false;
-            }
-
-            customer.Outcomes += amount;
-            return true;
+            return customer.Charge(amount);
         }
 
         public void Fund(int id, float amount)
@@ -37,13 +30,7 @@ namespace DesignPrinciples
                 return;
             }
 
-            customer.Incomes += amount;
-        }
-
-        public float? GetBalance(int id)
-        {
-            PaymentAccount customer = FindAccountById(id);
-            return customer?.Incomes - customer?.Outcomes;
+            customer.Fund(amount);
         }
     }
 }
