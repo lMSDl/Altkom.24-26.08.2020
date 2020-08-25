@@ -80,6 +80,21 @@
     <Compile Include="Structural\Adapter\I\Circle.cs" />
     <Compile Include="Structural\Adapter\I\Square.cs" />
     <Compile Include="Structural\Adapter\I\SquareAdapter.cs" />
+    <Compile Include="Structural\Bridge\II\Client.cs" />
+    <Compile Include="Structural\Bridge\II\IMessageSenderImplementation.cs" />
+    <Compile Include="Structural\Bridge\II\ShortMessageAbstraction.cs" />
+    <Compile Include="Structural\Bridge\II\MessageAbstraction.cs" />
+    <Compile Include="Structural\Bridge\II\EmailGate.cs" />
+    <Compile Include="Structural\Bridge\II\SmsGate.cs" />
+    <Compile Include="Structural\Bridge\I\LightBrightness.cs" />
+    <Compile Include="Structural\Bridge\I\Circle.cs" />
+    <Compile Include="Structural\Bridge\I\Client.cs" />
+    <Compile Include="Structural\Bridge\I\Brightness.cs" />
+    <Compile Include="Structural\Bridge\I\RedColor.cs" />
+    <Compile Include="Structural\Bridge\I\BlueColor.cs" />
+    <Compile Include="Structural\Bridge\I\Color.cs" />
+    <Compile Include="Structural\Bridge\I\Shape.cs" />
+    <Compile Include="Structural\Bridge\I\Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

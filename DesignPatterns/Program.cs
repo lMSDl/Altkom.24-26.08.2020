@@ -11,7 +11,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Structural.Adapter.II.Client.Execute();
+            DesignPatterns.Structural.Bridge.II.Client.Execute();
 
 
 
