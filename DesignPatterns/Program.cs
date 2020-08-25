@@ -11,7 +11,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Creational.Singleton.Client.Execute();
+            DesignPatterns.Structural.Adapter.II.Client.Execute();
 
 
 

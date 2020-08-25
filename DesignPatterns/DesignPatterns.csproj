@@ -69,6 +69,17 @@
     <Compile Include="Creational\Singleton\Context.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter\II\Client.cs" />
+    <Compile Include="Structural\Adapter\II\DbPerson.cs" />
+    <Compile Include="Structural\Adapter\II\DbPersonAdapter.cs" />
+    <Compile Include="Structural\Adapter\II\IPerson.cs" />
+    <Compile Include="Structural\Adapter\II\Person.cs" />
+    <Compile Include="Structural\Adapter\II\PersonAdaptation.cs" />
+    <Compile Include="Structural\Adapter\I\Client.cs" />
+    <Compile Include="Structural\Adapter\I\ICircle.cs" />
+    <Compile Include="Structural\Adapter\I\Circle.cs" />
+    <Compile Include="Structural\Adapter\I\Square.cs" />
+    <Compile Include="Structural\Adapter\I\SquareAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
