@@ -11,7 +11,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Structural.Composite.Client.Execute();
+            DesignPatterns.Structural.Decorator.Client.Execute();
 
 
 

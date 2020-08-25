@@ -100,6 +100,12 @@
     <Compile Include="Structural\Composite\IContainerOperations.cs" />
     <Compile Include="Structural\Composite\Product.cs" />
     <Compile Include="Structural\Composite\ProductBase.cs" />
+    <Compile Include="Structural\Decorator\BaseDecorator.cs" />
+    <Compile Include="Structural\Decorator\Client.cs" />
+    <Compile Include="Structural\Decorator\INotification.cs" />
+    <Compile Include="Structural\Decorator\Notification.cs" />
+    <Compile Include="Structural\Decorator\EmailNotification.cs" />
+    <Compile Include="Structural\Decorator\SmsNotification.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
