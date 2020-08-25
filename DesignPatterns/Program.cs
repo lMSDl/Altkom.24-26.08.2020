@@ -1,4 +1,4 @@
-﻿using DesignPatterns.Structural.Proxy;
+﻿using DesignPatterns.Behavioral.ChainOfResponsibility.II;
 using SOLID.III_LS_2;
 using System;
 using System.Collections.Generic;

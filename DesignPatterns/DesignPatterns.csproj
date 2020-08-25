@@ -46,6 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\II\Button.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\II\Client.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\II\Component.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\II\Container.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\II\Frame.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\II\TextBox.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\I\BaseHandler.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\I\Client.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\I\DiscountHandler.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\I\IHandler.cs" />
     <Compile Include="Creational\AbstractFactory\Client.cs" />
     <Compile Include="Creational\AbstractFactory\Factories.cs" />
     <Compile Include="Creational\AbstractFactory\Interfaces.cs" />
@@ -140,5 +150,6 @@
       <Name>SOLID</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
