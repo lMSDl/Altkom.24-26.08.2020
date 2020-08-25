@@ -95,6 +95,11 @@
     <Compile Include="Structural\Bridge\I\Color.cs" />
     <Compile Include="Structural\Bridge\I\Shape.cs" />
     <Compile Include="Structural\Bridge\I\Square.cs" />
+    <Compile Include="Structural\Composite\Client.cs" />
+    <Compile Include="Structural\Composite\Container.cs" />
+    <Compile Include="Structural\Composite\IContainerOperations.cs" />
+    <Compile Include="Structural\Composite\Product.cs" />
+    <Compile Include="Structural\Composite\ProductBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
