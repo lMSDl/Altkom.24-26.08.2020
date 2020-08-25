@@ -1,4 +1,5 @@
-﻿using SOLID.III_LS_2;
+﻿using DesignPatterns.Structural.Proxy;
+using SOLID.III_LS_2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Structural.Flyweight.Client.Execute();
+            Client.Execute();
 
 
 

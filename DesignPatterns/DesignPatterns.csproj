@@ -125,6 +125,10 @@
     <Compile Include="Structural\Facade\I\Person.cs" />
     <Compile Include="Structural\Flyweight\CarFlyweight.cs" />
     <Compile Include="Structural\Flyweight\ICarFlyweight.cs" />
+    <Compile Include="Structural\Proxy\Client.cs" />
+    <Compile Include="Structural\Proxy\Database.cs" />
+    <Compile Include="Structural\Proxy\DatabaseProxy.cs" />
+    <Compile Include="Structural\Proxy\IDatabase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
