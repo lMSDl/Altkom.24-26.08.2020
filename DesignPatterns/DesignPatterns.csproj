@@ -65,6 +65,9 @@
     <Compile Include="Creational\FactoryMethod\ElevatorDown.cs" />
     <Compile Include="Creational\FactoryMethod\ElevatorUp.cs" />
     <Compile Include="Creational\FactoryMethod\IEvelatorOperation.cs" />
+    <Compile Include="Structural\Flyweight\Car.cs" />
+    <Compile Include="Structural\Flyweight\CarFlyweightFactory.cs" />
+    <Compile Include="Structural\Flyweight\Client.cs" />
     <Compile Include="Creational\Prototype\Client.cs" />
     <Compile Include="Creational\Prototype\IdInfo.cs" />
     <Compile Include="Creational\Prototype\Person.cs" />
@@ -120,6 +123,8 @@
     <Compile Include="Structural\Facade\I\Client.cs" />
     <Compile Include="Structural\Facade\I\JsonConvertFacade.cs" />
     <Compile Include="Structural\Facade\I\Person.cs" />
+    <Compile Include="Structural\Flyweight\CarFlyweight.cs" />
+    <Compile Include="Structural\Flyweight\ICarFlyweight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
