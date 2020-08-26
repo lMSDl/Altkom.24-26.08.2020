@@ -65,6 +65,12 @@
     <Compile Include="Behavioral\Iterator\Buffer.cs" />
     <Compile Include="Behavioral\Iterator\BufferIterator.cs" />
     <Compile Include="Behavioral\Iterator\Client.cs" />
+    <Compile Include="Behavioral\Mediator\Chat.cs" />
+    <Compile Include="Behavioral\Mediator\ChatMember.cs" />
+    <Compile Include="Behavioral\Mediator\ChatBot.cs" />
+    <Compile Include="Behavioral\Mediator\ChatUser.cs" />
+    <Compile Include="Behavioral\Mediator\Client.cs" />
+    <Compile Include="Behavioral\Mediator\IChatMediator.cs" />
     <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
     <Compile Include="Behavioral\TemplateMethod\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
