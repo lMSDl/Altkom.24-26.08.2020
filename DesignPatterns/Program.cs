@@ -1,5 +1,5 @@
 ﻿
-using DesignPatterns.Behavioral.Mediator;
+using DesignPatterns.Behavioral.Memento;
 using SOLID.III_LS_2;
 using System;
 using System.Collections.Generic;

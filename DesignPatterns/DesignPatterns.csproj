@@ -71,6 +71,12 @@
     <Compile Include="Behavioral\Mediator\ChatUser.cs" />
     <Compile Include="Behavioral\Mediator\Client.cs" />
     <Compile Include="Behavioral\Mediator\IChatMediator.cs" />
+    <Compile Include="Behavioral\Memento\Caretaker.cs" />
+    <Compile Include="Behavioral\Memento\Client.cs" />
+    <Compile Include="Behavioral\Memento\IMemento.cs" />
+    <Compile Include="Behavioral\Memento\IRestorable.cs" />
+    <Compile Include="Behavioral\Memento\Memento.cs" />
+    <Compile Include="Behavioral\Memento\Person.cs" />
     <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
     <Compile Include="Behavioral\TemplateMethod\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
