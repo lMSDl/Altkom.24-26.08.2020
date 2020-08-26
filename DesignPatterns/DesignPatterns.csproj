@@ -83,6 +83,13 @@
     <Compile Include="Behavioral\Observer\ObserverA.cs" />
     <Compile Include="Behavioral\Observer\Subject.cs" />
     <Compile Include="Behavioral\Observer\Unsubscriber.cs" />
+    <Compile Include="Behavioral\State\Client.cs" />
+    <Compile Include="Behavioral\State\CoffeeMachine.cs" />
+    <Compile Include="Behavioral\State\HeatingUpState.cs" />
+    <Compile Include="Behavioral\State\IdleState.cs" />
+    <Compile Include="Behavioral\State\IState.cs" />
+    <Compile Include="Behavioral\State\State.cs" />
+    <Compile Include="Behavioral\State\WorkingState.cs" />
     <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
     <Compile Include="Behavioral\TemplateMethod\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
