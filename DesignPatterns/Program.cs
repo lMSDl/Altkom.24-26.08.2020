@@ -1,5 +1,5 @@
 ﻿
-using DesignPatterns.Behavioral.State;
+using DesignPatterns.Behavioral.Strategy;
 using SOLID.III_LS_2;
 using System;
 using System.Collections.Generic;

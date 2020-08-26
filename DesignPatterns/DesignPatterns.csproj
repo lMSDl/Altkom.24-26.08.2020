@@ -90,6 +90,13 @@
     <Compile Include="Behavioral\State\IState.cs" />
     <Compile Include="Behavioral\State\State.cs" />
     <Compile Include="Behavioral\State\WorkingState.cs" />
+    <Compile Include="Behavioral\Strategy\Calculator.cs" />
+    <Compile Include="Behavioral\Strategy\Client.cs" />
+    <Compile Include="Behavioral\Strategy\MultiplyCalcStrategy.cs" />
+    <Compile Include="Behavioral\Strategy\DivideCalcStrategy.cs" />
+    <Compile Include="Behavioral\Strategy\MinusCalcStrategy.cs" />
+    <Compile Include="Behavioral\Strategy\PlusCalcStrategy.cs" />
+    <Compile Include="Behavioral\Strategy\ICalcStrategy.cs" />
     <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
     <Compile Include="Behavioral\TemplateMethod\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
