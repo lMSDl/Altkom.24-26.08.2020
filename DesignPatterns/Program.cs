@@ -1,4 +1,5 @@
 ﻿
+using DesignPatterns.Behavioral.Iterator;
 using SOLID.III_LS_2;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Behavioral.Command.Client.Execute();
+            Client.Execute();
 
 
 

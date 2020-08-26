@@ -62,6 +62,9 @@
     <Compile Include="Behavioral\Command\RemoveCommand.cs" />
     <Compile Include="Behavioral\Command\PlantCommand.cs" />
     <Compile Include="Behavioral\Command\ICommand.cs" />
+    <Compile Include="Behavioral\Iterator\Buffer.cs" />
+    <Compile Include="Behavioral\Iterator\BufferIterator.cs" />
+    <Compile Include="Behavioral\Iterator\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
     <Compile Include="Behavioral\TemplateMethod\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
