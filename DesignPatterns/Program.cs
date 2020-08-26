@@ -1,4 +1,4 @@
-﻿using DesignPatterns.Behavioral.ChainOfResponsibility.II;
+﻿
 using SOLID.III_LS_2;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Client.Execute();
+            DesignPatterns.Behavioral.TemplateMethod.Client.Execute();
 
 
 

@@ -56,6 +56,12 @@
     <Compile Include="Behavioral\ChainOfResponsibility\I\Client.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\I\DiscountHandler.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\I\IHandler.cs" />
+    <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
+    <Compile Include="Behavioral\TemplateMethod\Client.cs" />
+    <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
+    <Compile Include="Behavioral\TemplateMethod\EmailLogger.cs" />
+    <Compile Include="Behavioral\TemplateMethod\FileLogger.cs" />
+    <Compile Include="Behavioral\TemplateMethod\Service.cs" />
     <Compile Include="Creational\AbstractFactory\Client.cs" />
     <Compile Include="Creational\AbstractFactory\Factories.cs" />
     <Compile Include="Creational\AbstractFactory\Interfaces.cs" />
