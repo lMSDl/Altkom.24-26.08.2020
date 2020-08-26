@@ -1,5 +1,5 @@
 ﻿
-using DesignPatterns.Behavioral.Memento;
+using DesignPatterns.Behavioral.Observer;
 using SOLID.III_LS_2;
 using System;
 using System.Collections.Generic;

@@ -77,6 +77,12 @@
     <Compile Include="Behavioral\Memento\IRestorable.cs" />
     <Compile Include="Behavioral\Memento\Memento.cs" />
     <Compile Include="Behavioral\Memento\Person.cs" />
+    <Compile Include="Behavioral\Observer\Client.cs" />
+    <Compile Include="Behavioral\Observer\Observer.cs" />
+    <Compile Include="Behavioral\Observer\ObserverB.cs" />
+    <Compile Include="Behavioral\Observer\ObserverA.cs" />
+    <Compile Include="Behavioral\Observer\Subject.cs" />
+    <Compile Include="Behavioral\Observer\Unsubscriber.cs" />
     <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
     <Compile Include="Behavioral\TemplateMethod\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
