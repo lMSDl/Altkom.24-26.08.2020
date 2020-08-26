@@ -56,6 +56,12 @@
     <Compile Include="Behavioral\ChainOfResponsibility\I\Client.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\I\DiscountHandler.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\I\IHandler.cs" />
+    <Compile Include="Behavioral\Command\Client.cs" />
+    <Compile Include="Behavioral\Command\CommandsInvoker.cs" />
+    <Compile Include="Behavioral\Command\Garden.cs" />
+    <Compile Include="Behavioral\Command\RemoveCommand.cs" />
+    <Compile Include="Behavioral\Command\PlantCommand.cs" />
+    <Compile Include="Behavioral\Command\ICommand.cs" />
     <Compile Include="Behavioral\TemplateMethod\BaseLogger.cs" />
     <Compile Include="Behavioral\TemplateMethod\Client.cs" />
     <Compile Include="Behavioral\TemplateMethod\DbLogger.cs" />
